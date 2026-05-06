@@ -5531,5 +5531,1759 @@ const questions = [
   ],
   correct: 0
 },
-  
+  {
+  chapter: "Chapter 17",
+  id: 1,
+  category: "Personal Selling",
+  question: "Personal selling is:",
+  answers: [
+    "Direct communication between a salesperson and prospective buyer",
+    "Mass communication through television",
+    "An online pricing strategy",
+    "A distribution channel"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 2,
+  category: "Sales Environment",
+  question: "The sales environment changes constantly because:",
+  answers: [
+    "New competitors enter and old competitors leave",
+    "Products never change",
+    "Customers stop buying",
+    "Advertising disappears"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 3,
+  category: "Sales Environment",
+  question: "Companies rely on personal selling sales management CRM and technology to:",
+  answers: [
+    "Build strong long-term customer relationships",
+    "Reduce communication",
+    "Avoid customers",
+    "Eliminate competition"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 4,
+  category: "Social Media",
+  question: "Technology impacts personal selling because:",
+  answers: [
+    "Customers often research products before meeting salespeople",
+    "Salespeople no longer matter",
+    "Advertising is eliminated",
+    "Products become less complex"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 5,
+  category: "Personal Selling",
+  question: "Personal selling becomes more important when:",
+  answers: [
+    "Products are technically complex",
+    "Products are low value",
+    "There are many customers",
+    "Products are easy to understand"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 6,
+  category: "Personal Selling",
+  question: "Personal selling is most effective for:",
+  answers: [
+    "Custom-made high-value products",
+    "Low-cost standardized products",
+    "Products with no customer interaction",
+    "Mass-market soap products"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 7,
+  category: "Relationship Selling",
+  question: "Relationship selling focuses on:",
+  answers: [
+    "Building long-term customer partnerships",
+    "Making one-time sales only",
+    "Reducing customer interaction",
+    "Eliminating follow-up"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 8,
+  category: "Relationship Selling",
+  question: "Traditional transactional selling is mainly concerned with:",
+  answers: [
+    "Making a one-time sale",
+    "Building lifetime loyalty",
+    "Developing partnerships",
+    "Customer retention"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 9,
+  category: "Relationship Selling",
+  question: "Salespeople practicing relationship selling spend more time:",
+  answers: [
+    "Understanding customer needs",
+    "Avoiding customers",
+    "Reducing solutions",
+    "Ignoring objections"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 10,
+  category: "Sales Process",
+  question: "The first step in the sales process is:",
+  answers: [
+    "Generating leads",
+    "Closing the sale",
+    "Negotiation",
+    "Follow-up"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 11,
+  category: "Sales Process",
+  question: "Lead generation is also called:",
+  answers: [
+    "Prospecting",
+    "Negotiation",
+    "Closing",
+    "Networking"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 12,
+  category: "Sales Process",
+  question: "Cold calling refers to:",
+  answers: [
+    "Contacting prospects without prior relationship",
+    "Calling existing customers only",
+    "Customer complaints",
+    "Internal meetings"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 13,
+  category: "Sales Process",
+  question: "A referral is:",
+  answers: [
+    "A lead suggested by another person",
+    "A rejected customer",
+    "An advertising campaign",
+    "A pricing strategy"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 14,
+  category: "Sales Process",
+  question: "Networking in selling is used to:",
+  answers: [
+    "Build relationships and identify prospects",
+    "Reduce communication",
+    "Avoid customers",
+    "Lower product quality"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 15,
+  category: "Sales Process",
+  question: "Lead qualification determines:",
+  answers: [
+    "Whether a prospect is a good sales opportunity",
+    "Advertising budgets",
+    "Manufacturing costs",
+    "Store locations"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 16,
+  category: "Sales Process",
+  question: "Preapproach involves:",
+  answers: [
+    "Researching the customer before contact",
+    "Closing the sale immediately",
+    "Delivering products",
+    "Creating advertisements"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 17,
+  category: "Sales Process",
+  question: "Needs assessment is used to:",
+  answers: [
+    "Identify customer problems and needs",
+    "Reduce product quality",
+    "Increase inventory",
+    "Eliminate follow-up"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 18,
+  category: "Sales Process",
+  question: "A sales proposal presents:",
+  answers: [
+    "Solutions to meet customer needs",
+    "Customer complaints",
+    "Employee salaries",
+    "Advertising expenses"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 19,
+  category: "Sales Process",
+  question: "The sales presentation is designed to:",
+  answers: [
+    "Explain product benefits and solutions",
+    "Reduce interaction",
+    "Avoid objections",
+    "Lower demand"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 20,
+  category: "Sales Process",
+  question: "Negotiation occurs when:",
+  answers: [
+    "Buyer and seller discuss terms and agreements",
+    "The sale is abandoned",
+    "Advertising begins",
+    "Production stops"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 21,
+  category: "Sales Process",
+  question: "Handling objections means:",
+  answers: [
+    "Addressing customer concerns and resistance",
+    "Ignoring customer feedback",
+    "Reducing communication",
+    "Ending the sales process"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 22,
+  category: "Sales Process",
+  question: "Closing the sale refers to:",
+  answers: [
+    "Obtaining the customer's commitment to buy",
+    "Generating leads",
+    "Researching customers",
+    "Handling inventory"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 23,
+  category: "Sales Process",
+  question: "Follow-up is important because it:",
+  answers: [
+    "Maintains customer satisfaction and relationships",
+    "Ends customer interaction",
+    "Reduces loyalty",
+    "Avoids communication"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 24,
+  category: "Sales Process",
+  question: "The selling process follows the:",
+  answers: [
+    "AIDA concept",
+    "BCG Matrix",
+    "SWOT analysis",
+    "Ansoff Matrix"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 25,
+  category: "AIDA",
+  question: "AIDA stands for:",
+  answers: [
+    "Attention interest desire and action",
+    "Awareness interaction development and analysis",
+    "Attention influence demand and advertising",
+    "Action interest demand and awareness"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 26,
+  category: "Sales Management",
+  question: "The main goal of sales management is to:",
+  answers: [
+    "Maximize sales and profits at a reasonable cost",
+    "Reduce communication",
+    "Eliminate salespeople",
+    "Increase production only"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 27,
+  category: "Sales Management",
+  question: "Sales managers are responsible for:",
+  answers: [
+    "Recruiting and training the sales force",
+    "Only manufacturing",
+    "Government regulation",
+    "Store construction"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 28,
+  category: "Sales Management",
+  question: "A quota is:",
+  answers: [
+    "A sales performance target",
+    "A customer complaint",
+    "An advertising slogan",
+    "A shipping method"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 29,
+  category: "CRM",
+  question: "CRM stands for:",
+  answers: [
+    "Customer Relationship Management",
+    "Consumer Retail Marketing",
+    "Customer Revenue Management",
+    "Corporate Resource Marketing"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 30,
+  category: "CRM",
+  question: "Companies using CRM follow a:",
+  answers: [
+    "Customer-centric focus",
+    "Product-only focus",
+    "Manufacturing focus",
+    "Cost-only focus"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 31,
+  category: "CRM",
+  question: "A customer-centric company focuses primarily on:",
+  answers: [
+    "Customer relationships and satisfaction",
+    "Reducing customer interaction",
+    "Ignoring customer feedback",
+    "Lowering service quality"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 32,
+  category: "CRM",
+  question: "The foundation of a CRM system is:",
+  answers: [
+    "Interaction between customers and the organization",
+    "Advertising campaigns only",
+    "Manufacturing processes",
+    "Government policy"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 33,
+  category: "CRM",
+  question: "Knowledge management in CRM involves:",
+  answers: [
+    "Generating and managing customer knowledge",
+    "Reducing customer data",
+    "Avoiding databases",
+    "Eliminating interactions"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 34,
+  category: "CRM",
+  question: "Touch points are:",
+  answers: [
+    "Points of interaction between customer and company",
+    "Warehouse locations",
+    "Manufacturing systems",
+    "Sales quotas"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 35,
+  category: "CRM",
+  question: "Point-of-sale interactions occur:",
+  answers: [
+    "When customers complete purchases",
+    "Only during advertising",
+    "At manufacturing plants",
+    "During recruiting"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 36,
+  category: "CRM",
+  question: "Campaign management involves:",
+  answers: [
+    "Managing marketing efforts directed at customers",
+    "Managing factory operations",
+    "Reducing customer communication",
+    "Handling payroll"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 37,
+  category: "Personal Selling",
+  question: "Advertising and sales promotion are more effective when:",
+  answers: [
+    "Products are low value and standardized",
+    "Products are technically complex",
+    "There are few customers",
+    "Customers are concentrated"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 38,
+  category: "Personal Selling",
+  question: "Personal selling is especially important when:",
+  answers: [
+    "There are few customers and products are complex",
+    "Products are inexpensive",
+    "Customers are geographically dispersed",
+    "Products are easy to understand"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 39,
+  category: "Social Media",
+  question: "Social media impacts personal selling by:",
+  answers: [
+    "Giving customers greater product knowledge and interaction",
+    "Eliminating the need for salespeople",
+    "Reducing communication",
+    "Replacing all marketing"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 17",
+  id: 40,
+  category: "Relationship Selling",
+  question: "The main objective of relationship selling is to:",
+  answers: [
+    "Develop long-term mutually beneficial partnerships",
+    "Focus only on immediate sales",
+    "Reduce follow-up",
+    "Avoid customer relationships"
+  ],
+  correct: 0
+},
+  {
+  chapter: "Chapter 19",
+  id: 1,
+  category: "Pricing",
+  question: "Pricing is important because it:",
+  answers: [
+    "Creates revenue for the business",
+    "Eliminates competition",
+    "Only affects advertising",
+    "Reduces customer choice"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 2,
+  category: "Pricing",
+  question: "Revenue is:",
+  answers: [
+    "Money generated from sales",
+    "Total expenses only",
+    "Inventory cost",
+    "Market share"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 3,
+  category: "Pricing",
+  question: "Profit is generally calculated as:",
+  answers: [
+    "Revenue minus costs",
+    "Costs plus taxes",
+    "Sales minus market share",
+    "Price multiplied by demand only"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 4,
+  category: "Pricing Objectives",
+  question: "Profit-oriented pricing focuses on:",
+  answers: [
+    "Profit maximization satisfactory profit or target ROI",
+    "Matching competitors only",
+    "Increasing unit sales only",
+    "Reducing all prices"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 5,
+  category: "Pricing Objectives",
+  question: "Sales-oriented pricing focuses on:",
+  answers: [
+    "Market share or maximizing sales",
+    "Only reducing costs",
+    "Avoiding competition",
+    "Maintaining legal compliance only"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 6,
+  category: "Pricing Objectives",
+  question: "Status quo pricing aims to:",
+  answers: [
+    "Match competitors' prices",
+    "Maximize profit at all costs",
+    "Eliminate market share",
+    "Raise prices constantly"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 7,
+  category: "ROI",
+  question: "ROI stands for:",
+  answers: [
+    "Return on investment",
+    "Rate of income",
+    "Revenue over inventory",
+    "Retail operating index"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 8,
+  category: "Market Share",
+  question: "Market share can be measured by:",
+  answers: [
+    "Units sold and revenue",
+    "Employee count only",
+    "Advertising spending only",
+    "Store size only"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 9,
+  category: "Demand",
+  question: "Demand refers to:",
+  answers: [
+    "The quantity of a product consumers are willing to buy",
+    "The total cost of production",
+    "The number of employees",
+    "The amount of advertising"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 10,
+  category: "Demand",
+  question: "A typical demand schedule shows that when price decreases:",
+  answers: [
+    "Quantity demanded increases",
+    "Quantity demanded decreases",
+    "Demand disappears",
+    "Supply always decreases"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 11,
+  category: "Demand",
+  question: "A typical demand schedule shows that when price increases:",
+  answers: [
+    "Quantity demanded falls",
+    "Quantity demanded rises",
+    "Revenue always rises",
+    "Competition disappears"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 12,
+  category: "Elasticity",
+  question: "Elasticity of demand measures:",
+  answers: [
+    "How quantity demanded changes with price changes",
+    "How employees respond to managers",
+    "How products are distributed",
+    "How ads are designed"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 13,
+  category: "Elastic Demand",
+  question: "Elastic demand means consumers are:",
+  answers: [
+    "Sensitive to price changes",
+    "Insensitive to price changes",
+    "Unaware of price",
+    "Focused only on quality"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 14,
+  category: "Inelastic Demand",
+  question: "Inelastic demand means consumers are:",
+  answers: [
+    "Insensitive to price changes",
+    "Highly sensitive to price changes",
+    "Unable to buy products",
+    "Only interested in discounts"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 15,
+  category: "Dynamic Pricing",
+  question: "Dynamic pricing is the ability to:",
+  answers: [
+    "Adjust prices quickly often in real time",
+    "Keep prices fixed forever",
+    "Avoid customer demand",
+    "Eliminate competition"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 16,
+  category: "Dynamic Pricing",
+  question: "Dynamic pricing originally became common in:",
+  answers: [
+    "Airlines",
+    "Grocery stores",
+    "Schools",
+    "Nonprofits"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 17,
+  category: "Surge Pricing",
+  question: "Surge pricing occurs when prices:",
+  answers: [
+    "Increase when demand is high",
+    "Stay the same during demand changes",
+    "Decrease when costs increase",
+    "Are banned by competitors"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 18,
+  category: "Costs",
+  question: "Variable costs are costs that:",
+  answers: [
+    "Change with the level of production",
+    "Never change",
+    "Only include rent",
+    "Only include executive salaries"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 19,
+  category: "Costs",
+  question: "Fixed costs are costs that:",
+  answers: [
+    "Do not change with production level in the short run",
+    "Change with every unit sold",
+    "Only include packaging",
+    "Only occur during discounts"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 20,
+  category: "Markup Pricing",
+  question: "Markup pricing means:",
+  answers: [
+    "Adding an amount to cost to cover expenses and profit",
+    "Selling below cost always",
+    "Matching competitors only",
+    "Removing profit from price"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 21,
+  category: "Keystoning",
+  question: "Keystoning usually means:",
+  answers: [
+    "Doubling the cost to set the retail price",
+    "Cutting price in half",
+    "Selling below cost",
+    "Matching wholesale price"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 22,
+  category: "Break-Even Analysis",
+  question: "Break-even analysis determines:",
+  answers: [
+    "How much must be sold to cover costs",
+    "How much advertising is needed",
+    "How many competitors exist",
+    "How many employees are required"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 23,
+  category: "Price Factors",
+  question: "A product's price may change because of:",
+  answers: [
+    "Product life cycle demand and competition",
+    "Employee birthdays",
+    "Office furniture",
+    "Weather only"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 24,
+  category: "Product Life Cycle",
+  question: "Management often sets a high price during the:",
+  answers: [
+    "Introductory stage",
+    "Decline stage",
+    "Final stage",
+    "Postpurchase stage"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 25,
+  category: "Competition",
+  question: "Competition usually drives prices down because firms:",
+  answers: [
+    "Lower prices to gain market share",
+    "Stop selling products",
+    "Avoid customers",
+    "Increase taxes"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 26,
+  category: "Internet Pricing",
+  question: "The Internet affects pricing by allowing consumers to:",
+  answers: [
+    "Compare products and prices quickly",
+    "Avoid all purchases",
+    "Eliminate retailers",
+    "Set company costs"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 27,
+  category: "Setting Price",
+  question: "The first step in setting the right price is:",
+  answers: [
+    "Establishing pricing goals",
+    "Creating advertisements",
+    "Hiring salespeople",
+    "Changing packaging"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 28,
+  category: "Setting Price",
+  question: "After establishing pricing goals firms estimate:",
+  answers: [
+    "Demand costs and profits",
+    "Employee schedules",
+    "Advertising colors",
+    "Office supplies"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 29,
+  category: "Price Strategy",
+  question: "A price strategy establishes:",
+  answers: [
+    "A long-term pricing framework",
+    "A short-term employee plan",
+    "A sales script only",
+    "A legal defense only"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 30,
+  category: "Price Skimming",
+  question: "Price skimming means:",
+  answers: [
+    "Setting a high initial price",
+    "Setting the lowest possible price",
+    "Matching competitors",
+    "Using only discounts"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 31,
+  category: "Penetration Pricing",
+  question: "Penetration pricing means:",
+  answers: [
+    "Setting a low initial price to attract buyers",
+    "Setting a high initial price",
+    "Avoiding discounts",
+    "Reducing distribution"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 32,
+  category: "Base Price",
+  question: "A base price is:",
+  answers: [
+    "The general price before discounts allowances or adjustments",
+    "The final price after taxes only",
+    "The employee wage rate",
+    "The advertising budget"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 33,
+  category: "Discounts",
+  question: "A quantity discount is given to buyers who:",
+  answers: [
+    "Purchase large amounts",
+    "Pay late",
+    "Complain often",
+    "Buy only one item"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 34,
+  category: "Discounts",
+  question: "A cash discount rewards customers for:",
+  answers: [
+    "Paying promptly",
+    "Buying slowly",
+    "Returning products",
+    "Ignoring invoices"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 35,
+  category: "Discounts",
+  question: "A seasonal discount is used to:",
+  answers: [
+    "Encourage purchases during off-season periods",
+    "Punish customers",
+    "Increase legal risk",
+    "Eliminate demand"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 36,
+  category: "Allowances",
+  question: "A promotional allowance is given to channel members for:",
+  answers: [
+    "Performing promotional activities",
+    "Avoiding sales",
+    "Raising competitor prices",
+    "Reducing customer service"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 37,
+  category: "Rebates",
+  question: "A rebate is:",
+  answers: [
+    "A refund given after purchase",
+    "A price increase",
+    "A fixed cost",
+    "A legal penalty"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 38,
+  category: "Value-Based Pricing",
+  question: "Value-based pricing sets price based on:",
+  answers: [
+    "Customer perceived value",
+    "Employee wages only",
+    "Competitor names only",
+    "Shipping routes only"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 39,
+  category: "Geographic Pricing",
+  question: "Geographic pricing tactics mainly address:",
+  answers: [
+    "Shipping cost differences by location",
+    "Employee motivation",
+    "Advertising design",
+    "Product color"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 40,
+  category: "FOB Origin Pricing",
+  question: "FOB origin pricing means:",
+  answers: [
+    "Buyer pays shipping from the seller's location",
+    "Seller pays all shipping everywhere",
+    "All customers pay the same delivered price",
+    "Prices are based only on zones"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 41,
+  category: "Uniform Delivered Pricing",
+  question: "Uniform delivered pricing charges:",
+  answers: [
+    "The same delivered price to all buyers",
+    "Different prices for every buyer",
+    "Only local customers",
+    "Only wholesale customers"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 42,
+  category: "Zone Pricing",
+  question: "Zone pricing sets prices based on:",
+  answers: [
+    "Geographic zones",
+    "Customer age",
+    "Advertising budget",
+    "Employee rank"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 43,
+  category: "Pricing Tactics",
+  question: "Single-price tactic means:",
+  answers: [
+    "All goods are sold at the same price",
+    "Every customer negotiates a different price",
+    "Only expensive items are sold",
+    "No prices are displayed"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 44,
+  category: "Pricing Tactics",
+  question: "Flexible pricing means:",
+  answers: [
+    "Different customers may pay different prices",
+    "All customers pay one fixed price",
+    "Prices never change",
+    "Discounts are illegal"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 45,
+  category: "Pricing Tactics",
+  question: "Price lining means:",
+  answers: [
+    "Offering products at specific price points",
+    "Charging no price",
+    "Changing prices every hour",
+    "Selling only one product"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 46,
+  category: "Leader Pricing",
+  question: "Leader pricing is used to:",
+  answers: [
+    "Attract customers with low-priced items",
+    "Raise all prices",
+    "Avoid promotion",
+    "Reduce store traffic"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 47,
+  category: "Bait Pricing",
+  question: "Bait pricing involves:",
+  answers: [
+    "Advertising a low price to attract customers",
+    "Raising prices without notice",
+    "Setting prices by geography",
+    "Offering only bundles"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 48,
+  category: "Odd-Even Pricing",
+  question: "Odd-even pricing is also called:",
+  answers: [
+    "Psychological pricing",
+    "Cost pricing",
+    "Legal pricing",
+    "Break-even pricing"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 49,
+  category: "Price Bundling",
+  question: "Price bundling means:",
+  answers: [
+    "Selling multiple products together for one price",
+    "Selling all items separately only",
+    "Increasing shipping costs",
+    "Reducing product variety"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 50,
+  category: "Two-Part Pricing",
+  question: "Two-part pricing means customers pay:",
+  answers: [
+    "A fixed fee plus a usage fee",
+    "Only one flat price",
+    "No membership fee",
+    "Only after returning products"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 51,
+  category: "Legal Constraints",
+  question: "Government pricing regulation monitors:",
+  answers: [
+    "Unfair trade practices price fixing price discrimination and predatory pricing",
+    "Only advertising slogans",
+    "Only packaging",
+    "Only employee pay"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 52,
+  category: "Price Fixing",
+  question: "Price fixing occurs when firms:",
+  answers: [
+    "Agree to set prices together illegally",
+    "Compete by lowering prices",
+    "Use legal discounts",
+    "Offer rebates"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 53,
+  category: "Price Discrimination",
+  question: "Price discrimination involves:",
+  answers: [
+    "Charging different buyers different prices unfairly",
+    "Charging all buyers the same price",
+    "Using price lining",
+    "Offering seasonal discounts"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 54,
+  category: "Predatory Pricing",
+  question: "Predatory pricing is:",
+  answers: [
+    "Charging very low prices to drive competitors out",
+    "Charging premium prices for luxury goods",
+    "Using rebates legally",
+    "Matching market prices"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 19",
+  id: 55,
+  category: "Legal Constraints",
+  question: "The Robinson-Patman Act addresses:",
+  answers: [
+    "Price discrimination",
+    "Advertising clutter",
+    "Product packaging",
+    "Sales quotas"
+  ],
+  correct: 0
+},
+  {
+  chapter: "Chapter 7",
+  id: 1,
+  category: "Business Marketing",
+  question: "Business marketing involves:",
+  answers: [
+    "Goods and services bought for business use",
+    "Products bought only for personal consumption",
+    "Government regulations only",
+    "Retail shopping only"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 2,
+  category: "Business Marketing",
+  question: "Business marketing is also known as:",
+  answers: [
+    "B-to-B marketing",
+    "Consumer marketing",
+    "Retail marketing",
+    "Personal marketing"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 3,
+  category: "Business Products",
+  question: "A business product is purchased primarily for:",
+  answers: [
+    "Use in business operations",
+    "Personal enjoyment",
+    "Household use",
+    "Entertainment only"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 4,
+  category: "Business Products",
+  question: "The main factor distinguishing a business product from a consumer product is:",
+  answers: [
+    "Intended use",
+    "Product size",
+    "Color",
+    "Packaging"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 5,
+  category: "B-to-B Internet Marketing",
+  question: "B-to-B companies use websites mainly to:",
+  answers: [
+    "Facilitate communication and orders",
+    "Eliminate customer contact",
+    "Avoid advertising",
+    "Reduce content"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 6,
+  category: "Content Marketing",
+  question: "Content marketing focuses on:",
+  answers: [
+    "Creating and distributing valuable relevant content",
+    "Reducing information",
+    "Avoiding social media",
+    "Only television ads"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 7,
+  category: "Social Media",
+  question: "B-to-B firms use social media to:",
+  answers: [
+    "Build awareness and relationships",
+    "Reduce communication",
+    "Avoid customers",
+    "Eliminate branding"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 8,
+  category: "Social Media Metrics",
+  question: "Important B-to-B social media metrics include:",
+  answers: [
+    "Awareness engagement and conversion",
+    "Taxes and payroll",
+    "Inventory only",
+    "Manufacturing costs"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 9,
+  category: "Relationship Marketing",
+  question: "Relationship marketing focuses on:",
+  answers: [
+    "Establishing long-term partnerships",
+    "One-time transactions only",
+    "Reducing customer interaction",
+    "Eliminating service"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 10,
+  category: "Strategic Alliances",
+  question: "A strategic alliance is:",
+  answers: [
+    "A cooperative agreement between firms",
+    "A government regulation",
+    "A retail strategy",
+    "A pricing law"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 11,
+  category: "Relationship Marketing",
+  question: "Relationship commitment refers to:",
+  answers: [
+    "The desire to maintain a valued relationship",
+    "Avoiding partnerships",
+    "Reducing trust",
+    "Ending communication"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 12,
+  category: "Relationship Marketing",
+  question: "Trust in business marketing means:",
+  answers: [
+    "Confidence in a partner's reliability and integrity",
+    "Ignoring agreements",
+    "Avoiding communication",
+    "Reducing service quality"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 13,
+  category: "Business Markets",
+  question: "Producer markets buy products to:",
+  answers: [
+    "Produce other goods or facilitate operations",
+    "Use personally",
+    "Avoid production",
+    "Only resell directly"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 14,
+  category: "Business Markets",
+  question: "Reseller markets consist mainly of:",
+  answers: [
+    "Wholesalers and retailers",
+    "Government agencies",
+    "Manufacturers only",
+    "Hospitals only"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 15,
+  category: "Business Markets",
+  question: "Government markets include:",
+  answers: [
+    "Federal state county and city governments",
+    "Only manufacturers",
+    "Only retailers",
+    "Only consumers"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 16,
+  category: "Business Markets",
+  question: "Institutional markets are primarily:",
+  answers: [
+    "Nonbusiness organizations with non-profit goals",
+    "Retail stores",
+    "Wholesalers",
+    "Factories only"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 17,
+  category: "OEMs",
+  question: "OEM stands for:",
+  answers: [
+    "Original equipment manufacturer",
+    "Operational exchange market",
+    "Online equipment model",
+    "Official enterprise management"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 18,
+  category: "NAICS",
+  question: "NAICS stands for:",
+  answers: [
+    "North American Industry Classification System",
+    "National Association of Industrial Consumer Services",
+    "North American International Consumer Standards",
+    "National Automated Industry Coding Structure"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 19,
+  category: "NAICS",
+  question: "NAICS is used to:",
+  answers: [
+    "Identify analyze and target business markets",
+    "Create advertisements",
+    "Set taxes",
+    "Manage payroll"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 20,
+  category: "Business Markets",
+  question: "Demand in business markets is usually:",
+  answers: [
+    "Derived",
+    "Independent",
+    "Unrelated",
+    "Constant"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 21,
+  category: "Derived Demand",
+  question: "Derived demand means:",
+  answers: [
+    "Demand for business products comes from demand for consumer products",
+    "Demand is unrelated to consumers",
+    "Demand always decreases",
+    "Demand depends only on price"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 22,
+  category: "Joint Demand",
+  question: "Joint demand occurs when:",
+  answers: [
+    "Demand for one product depends on demand for another",
+    "Products are sold separately",
+    "Demand disappears",
+    "Customers stop purchasing"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 23,
+  category: "Business Markets",
+  question: "Business customers are usually:",
+  answers: [
+    "Fewer and more geographically concentrated",
+    "More numerous and dispersed",
+    "Completely random",
+    "Uninterested in service"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 24,
+  category: "Business Markets",
+  question: "Business buying is often more formal because:",
+  answers: [
+    "Professional purchasing agents are involved",
+    "No evaluation is needed",
+    "Consumers make all decisions",
+    "Advertising replaces selling"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 25,
+  category: "Reciprocity",
+  question: "Reciprocity occurs when:",
+  answers: [
+    "Two companies agree to buy from each other",
+    "Prices are reduced equally",
+    "Customers return products",
+    "Advertising increases"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 26,
+  category: "Business Goods",
+  question: "Major equipment includes:",
+  answers: [
+    "Capital goods such as heavy machinery",
+    "Office paper",
+    "Cleaning supplies",
+    "Raw cotton"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 27,
+  category: "Business Goods",
+  question: "Accessory equipment is usually:",
+  answers: [
+    "Less expensive and shorter lived than major equipment",
+    "More expensive than installations",
+    "Used only by consumers",
+    "Always intangible"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 28,
+  category: "Business Goods",
+  question: "Raw materials are:",
+  answers: [
+    "Extractive or agricultural products not yet processed",
+    "Finished products ready for consumers",
+    "Business services",
+    "Advertising materials"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 29,
+  category: "Business Goods",
+  question: "Component parts are:",
+  answers: [
+    "Finished or near-finished items used in other products",
+    "Unprocessed agricultural products",
+    "Business services",
+    "Office supplies"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 30,
+  category: "Business Goods",
+  question: "Processed materials are used to:",
+  answers: [
+    "Manufacture other products",
+    "Sell directly to consumers only",
+    "Provide legal services",
+    "Reduce distribution"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 31,
+  category: "Business Goods",
+  question: "Supplies are:",
+  answers: [
+    "Consumable items not part of the final product",
+    "Major installations",
+    "Consumer durable goods",
+    "Raw agricultural products"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 32,
+  category: "Business Services",
+  question: "Business services are:",
+  answers: [
+    "Intangible products used in operations",
+    "Physical consumer goods",
+    "Government regulations",
+    "Manufacturing plants"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 33,
+  category: "Buying Behavior",
+  question: "Business buying decisions are often made by a:",
+  answers: [
+    "Buying center",
+    "Single consumer",
+    "Cashier",
+    "Retail clerk"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 34,
+  category: "Buying Center",
+  question: "A buying center consists of:",
+  answers: [
+    "People involved in the purchasing decision",
+    "Only salespeople",
+    "Only executives",
+    "Only customers"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 35,
+  category: "Buying Behavior",
+  question: "Business buyers generally evaluate suppliers based on:",
+  answers: [
+    "Quality service and price",
+    "Advertising only",
+    "Packaging only",
+    "Location only"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 36,
+  category: "Buying Behavior",
+  question: "A new buy occurs when:",
+  answers: [
+    "A company purchases a product for the first time",
+    "A routine reorder is made",
+    "No evaluation occurs",
+    "The same vendor is automatically selected"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 37,
+  category: "Buying Behavior",
+  question: "A modified rebuy occurs when:",
+  answers: [
+    "A buyer wants to change product specifications or suppliers",
+    "A first-time purchase is made",
+    "No changes are considered",
+    "Only advertising changes"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 38,
+  category: "Buying Behavior",
+  question: "A straight rebuy occurs when:",
+  answers: [
+    "A buyer routinely reorders without modifications",
+    "A company enters a new market",
+    "Suppliers are completely changed",
+    "Advertising replaces purchasing"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 39,
+  category: "Customer Service",
+  question: "Customer service in business markets is important:",
+  answers: [
+    "Before during and after the sale",
+    "Only before the sale",
+    "Only after the sale",
+    "Only during negotiations"
+  ],
+  correct: 0
+},
+{
+  chapter: "Chapter 7",
+  id: 40,
+  category: "Selling Strategy",
+  question: "Selling strategy in business markets focuses heavily on:",
+  answers: [
+    "Personal contact",
+    "Mass advertising only",
+    "Television commercials only",
+    "Celebrity endorsements only"
+  ],
+  correct: 0
+},
 ];

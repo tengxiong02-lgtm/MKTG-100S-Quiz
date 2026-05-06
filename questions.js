@@ -485,5 +485,610 @@ const questions = [
     }
   ]
 }
-  
+  {
+  "chapter": "Chapter 2",
+  "questions": [
+    {
+      "id": 1,
+      "category": "Strategic Planning",
+      "question": "What is strategic planning?",
+      "answers": [
+        "Short term promotional scheduling",
+        "Creating and maintaining a fit between objectives resources and market opportunities",
+        "Reducing employee responsibilities",
+        "Setting product prices only"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "category": "Strategic Planning",
+      "question": "The primary goal of strategic planning is:",
+      "answers": [
+        "Lower advertising costs",
+        "Long run profitability and growth",
+        "Reducing competition",
+        "Increasing production only"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "category": "Strategic Planning",
+      "question": "Strategic decisions usually require:",
+      "answers": [
+        "Short term thinking only",
+        "Long term commitments of resources",
+        "No financial investment",
+        "Minimal planning"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 4,
+      "category": "SBU",
+      "question": "What does SBU stand for?",
+      "answers": [
+        "Strategic Business Unit",
+        "Sales Business Utility",
+        "System Business Unit",
+        "Strategic Brand Utility"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "category": "SBU",
+      "question": "Which characteristic describes a strategic business unit?",
+      "answers": [
+        "No competitors",
+        "Distinct mission and target market",
+        "Shared resources with all divisions",
+        "No independent planning"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 6,
+      "category": "SBU",
+      "question": "An SBU should:",
+      "answers": [
+        "Depend fully on other SBUs",
+        "Have control over its resources",
+        "Avoid target markets",
+        "Focus only on sales"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 7,
+      "category": "Ansoff Matrix",
+      "question": "Ansoff's Opportunity Matrix matches:",
+      "answers": [
+        "Employees with departments",
+        "Products with markets",
+        "Prices with suppliers",
+        "Promotions with budgets"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 8,
+      "category": "Ansoff Matrix",
+      "question": "Market penetration involves:",
+      "answers": [
+        "Selling existing products in existing markets",
+        "Selling new products in new markets",
+        "Leaving current markets",
+        "Buying competitors"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 9,
+      "category": "Ansoff Matrix",
+      "question": "Opening stores in new countries is an example of:",
+      "answers": [
+        "Market penetration",
+        "Product development",
+        "Diversification",
+        "Market development"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 10,
+      "category": "Ansoff Matrix",
+      "question": "Introducing new products to current markets is called:",
+      "answers": [
+        "Market development",
+        "Diversification",
+        "Product development",
+        "Harvesting"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 11,
+      "category": "Ansoff Matrix",
+      "question": "Diversification occurs when a company:",
+      "answers": [
+        "Sells current products to current customers",
+        "Introduces new products into new markets",
+        "Reduces its product line",
+        "Lowers prices"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 12,
+      "category": "Portfolio Matrix",
+      "question": "A star in the portfolio matrix is:",
+      "answers": [
+        "A low growth low share product",
+        "A fast growing market leader",
+        "A declining product",
+        "A weak competitor"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 13,
+      "category": "Portfolio Matrix",
+      "question": "Stars usually require:",
+      "answers": [
+        "No investment",
+        "Large amounts of cash to finance growth",
+        "Immediate divestment",
+        "Elimination from the market"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 14,
+      "category": "Portfolio Matrix",
+      "question": "A cash cow:",
+      "answers": [
+        "Has low market share in a growing market",
+        "Generates more cash than it needs",
+        "Requires heavy investment",
+        "Should immediately be divested"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 15,
+      "category": "Portfolio Matrix",
+      "question": "A problem child is characterized by:",
+      "answers": [
+        "High growth and low market share",
+        "Low growth and high market share",
+        "High profits and low growth",
+        "Market dominance"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 16,
+      "category": "Portfolio Matrix",
+      "question": "A dog in the portfolio matrix has:",
+      "answers": [
+        "High growth potential",
+        "Strong market share",
+        "Low growth potential and small market share",
+        "Large profits"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 17,
+      "category": "Resource Allocation",
+      "question": "Which strategy is best for an SBU with star potential?",
+      "answers": [
+        "Divest",
+        "Harvest",
+        "Build",
+        "Reduce"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 18,
+      "category": "Resource Allocation",
+      "question": "Which strategy focuses on preserving market share?",
+      "answers": [
+        "Harvest",
+        "Build",
+        "Divest",
+        "Hold"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 19,
+      "category": "Resource Allocation",
+      "question": "The harvest strategy aims to:",
+      "answers": [
+        "Increase short term cash return",
+        "Expand internationally",
+        "Introduce new products",
+        "Maximize long term growth"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 20,
+      "category": "Resource Allocation",
+      "question": "Divest means:",
+      "answers": [
+        "Increasing advertising",
+        "Holding market share",
+        "Getting rid of weak SBUs",
+        "Creating new products"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 21,
+      "category": "Marketing Plan",
+      "question": "A marketing plan is:",
+      "answers": [
+        "A verbal discussion of marketing goals",
+        "A written guidebook of marketing activities",
+        "A sales quota document",
+        "A product inventory sheet"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 22,
+      "category": "Marketing Plan",
+      "question": "Marketing planning is the basis for:",
+      "answers": [
+        "All marketing strategies and decisions",
+        "Accounting systems only",
+        "Production schedules",
+        "Employee salaries"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 23,
+      "category": "Mission Statement",
+      "question": "The foundation of a marketing plan is the:",
+      "answers": [
+        "Sales forecast",
+        "Promotion strategy",
+        "Mission statement",
+        "Distribution channel"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 24,
+      "category": "Mission Statement",
+      "question": "Marketing myopia occurs when a business:",
+      "answers": [
+        "Defines itself too broadly",
+        "Defines itself in terms of customer benefits",
+        "Defines itself narrowly by products rather than benefits",
+        "Focuses on social responsibility"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 25,
+      "category": "SWOT",
+      "question": "SWOT analysis examines:",
+      "answers": [
+        "Sales and pricing only",
+        "Strengths weaknesses opportunities and threats",
+        "Promotion and advertising only",
+        "Customer demographics only"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 26,
+      "category": "SWOT",
+      "question": "Strengths and weaknesses are considered:",
+      "answers": [
+        "External factors",
+        "Government regulations",
+        "Internal factors",
+        "Competitive threats"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 27,
+      "category": "SWOT",
+      "question": "Opportunities and threats are considered:",
+      "answers": [
+        "Internal resources",
+        "External environmental factors",
+        "Accounting issues",
+        "Employee evaluations"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 28,
+      "category": "SWOT",
+      "question": "Environmental scanning involves:",
+      "answers": [
+        "Analyzing the marketing environment",
+        "Counting inventory",
+        "Testing products only",
+        "Evaluating employee performance"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 29,
+      "category": "Competitive Advantage",
+      "question": "Competitive advantage is:",
+      "answers": [
+        "A government requirement",
+        "Factors causing customers to choose one firm over competitors",
+        "Lower employee turnover",
+        "A pricing regulation"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 30,
+      "category": "Competitive Advantage",
+      "question": "Which is a type of competitive advantage?",
+      "answers": [
+        "Cost advantage",
+        "Differentiation",
+        "Niche advantage",
+        "All of the above"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 31,
+      "category": "Competitive Advantage",
+      "question": "A sustainable competitive advantage:",
+      "answers": [
+        "Can easily be copied",
+        "Lasts until competitors imitate it",
+        "Exists only in monopolies",
+        "Requires no innovation"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 32,
+      "category": "Marketing Objectives",
+      "question": "A marketing objective is a:",
+      "answers": [
+        "Statement of what marketing activities should accomplish",
+        "List of employee tasks",
+        "Pricing strategy",
+        "Customer complaint report"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 33,
+      "category": "Marketing Objectives",
+      "question": "Marketing objectives help:",
+      "answers": [
+        "Clarify executive thinking",
+        "Motivate employees",
+        "Provide direction",
+        "All of the above"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 34,
+      "category": "Target Markets",
+      "question": "A target market strategy focuses on:",
+      "answers": [
+        "Random customer groups",
+        "Groups with similar characteristics",
+        "Suppliers only",
+        "Competitors"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 35,
+      "category": "Target Markets",
+      "question": "Appealing to one segment with one marketing mix is called:",
+      "answers": [
+        "Concentrated targeting",
+        "Mass diversification",
+        "Harvesting",
+        "Divesting"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 36,
+      "category": "MOA",
+      "question": "MOA stands for:",
+      "answers": [
+        "Market Opportunity Analysis",
+        "Marketing Operations Audit",
+        "Market Objective Assessment",
+        "Management Opportunity Analysis"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 37,
+      "category": "Marketing Mix",
+      "question": "The four Ps of marketing are:",
+      "answers": [
+        "Planning people profit promotion",
+        "Product place promotion price",
+        "Price planning people promotion",
+        "Product profit promotion planning"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 38,
+      "category": "Marketing Mix",
+      "question": "Which marketing mix element involves transportation and storage?",
+      "answers": [
+        "Product",
+        "Price",
+        "Promotion",
+        "Place"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 39,
+      "category": "Marketing Mix",
+      "question": "Which marketing mix element includes advertising and public relations?",
+      "answers": [
+        "Promotion",
+        "Price",
+        "Place",
+        "Product"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 40,
+      "category": "Marketing Mix",
+      "question": "Price represents:",
+      "answers": [
+        "The value customers give up to obtain a product",
+        "Advertising expenses",
+        "Shipping costs only",
+        "Production efficiency"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 41,
+      "category": "Marketing Mix",
+      "question": "Which of the four Ps is considered the most flexible?",
+      "answers": [
+        "Product",
+        "Place",
+        "Promotion",
+        "Price"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 42,
+      "category": "Implementation",
+      "question": "Implementation means:",
+      "answers": [
+        "Creating customer surveys",
+        "Turning marketing plans into action assignments",
+        "Changing company ownership",
+        "Writing mission statements"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 43,
+      "category": "Evaluation",
+      "question": "Evaluation measures:",
+      "answers": [
+        "The extent marketing objectives are achieved",
+        "Employee attendance",
+        "Factory production speed",
+        "Supplier performance only"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 44,
+      "category": "Control",
+      "question": "Control helps management:",
+      "answers": [
+        "Allocate marketing resources efficiently",
+        "Eliminate competition",
+        "Avoid planning",
+        "Ignore performance"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 45,
+      "category": "Marketing Audit",
+      "question": "A marketing audit is:",
+      "answers": [
+        "A random evaluation",
+        "A thorough systematic periodic evaluation",
+        "A pricing adjustment",
+        "A sales pitch"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 46,
+      "category": "Strategic Planning",
+      "question": "Effective strategic planning requires:",
+      "answers": [
+        "Continual attention",
+        "Creativity",
+        "Management commitment",
+        "All of the above"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 47,
+      "category": "Examples",
+      "question": "McDonald's all day breakfast is an example of:",
+      "answers": [
+        "Diversification",
+        "Market penetration",
+        "Divestment",
+        "Harvesting"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 48,
+      "category": "Examples",
+      "question": "Harley Davidson introducing motorcycles for women is an example of:",
+      "answers": [
+        "Market development",
+        "Product development",
+        "Diversification",
+        "Market penetration"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 49,
+      "category": "Concepts",
+      "question": "Marketing strategy creates:",
+      "answers": [
+        "Mutually satisfying exchanges",
+        "Only higher prices",
+        "Reduced customer value",
+        "Production monopolies"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 50,
+      "category": "Concepts",
+      "question": "The product is considered the starting point of the marketing mix because:",
+      "answers": [
+        "Pricing is based on competitors",
+        "Promotion and distribution depend on the product offering",
+        "Advertising comes first",
+        "Distribution is unrelated"
+      ],
+      "correct": 1
+    }
+  ]
+}
+      
 ];

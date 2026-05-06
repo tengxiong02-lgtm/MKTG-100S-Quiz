@@ -12,7 +12,7 @@
 
     .quiz-box {
       background: white;
-      max-width: 600px;
+      max-width: 700px;
       margin: auto;
       padding: 25px;
       border-radius: 12px;
@@ -21,6 +21,12 @@
 
     h1 {
       text-align: center;
+    }
+
+    .meta {
+      color: #555;
+      font-size: 14px;
+      margin-bottom: 10px;
     }
 
     .answer {
@@ -61,64 +67,46 @@
   <div class="quiz-box">
     <h1>MKTG 100S Quiz</h1>
 
-    <p id="progress"></p>
+    <p id="progress" class="meta"></p>
+    <p id="category" class="meta"></p>
+
     <h2 id="question"></h2>
 
     <div id="answers"></div>
 
-    <button onclick="nextQuestion()">Next</button>
+    <button id="nextBtn" onclick="nextQuestion()">Next</button>
 
-    <p id="result"></p>
+    <div id="result"></div>
   </div>
 
+  <script src="questions.js"></script>
+
   <script>
-    const questions = [
-      {
-        question: "What is marketing?",
-        answers: [
-          "Selling only",
-          "Creating, communicating, and delivering value",
-          "Making ads"
-        ],
-        correct: 1
-      },
-      {
-        question: "What are the 4 Ps?",
-        answers: [
-          "Product, Price, Place, Promotion",
-          "People, Profit, Plan, Power",
-          "Product, Profit, Place, People"
-        ],
-        correct: 0
-      },
-      {
-        question: "What does the BCG Matrix help with?",
-        answers: [
-          "Hiring employees",
-          "Choosing where to invest resources",
-          "Designing logos"
-        ],
-        correct: 1
-      }
-    ];
+    let currentQuiz = [...questions];
 
     let currentQuestion = 0;
     let score = 0;
     let selectedAnswer = null;
+    let missedQuestions = [];
 
     function loadQuestion() {
       selectedAnswer = null;
 
+      const current = currentQuiz[currentQuestion];
+
       document.getElementById("progress").innerText =
-        "Question " + (currentQuestion + 1) + " of " + questions.length;
+        "Question " + (currentQuestion + 1) + " of " + currentQuiz.length;
+
+      document.getElementById("category").innerText =
+        "Category: " + current.category;
 
       document.getElementById("question").innerText =
-        questions[currentQuestion].question;
+        current.question;
 
       const answersDiv = document.getElementById("answers");
       answersDiv.innerHTML = "";
 
-      questions[currentQuestion].answers.forEach((answer, index) => {
+      current.answers.forEach((answer, index) => {
         const label = document.createElement("label");
         label.className = "answer";
 
@@ -141,13 +129,17 @@
         return;
       }
 
-      if (selectedAnswer === questions[currentQuestion].correct) {
+      const current = currentQuiz[currentQuestion];
+
+      if (selectedAnswer === current.correct) {
         score++;
+      } else {
+        missedQuestions.push(current);
       }
 
       currentQuestion++;
 
-      if (currentQuestion < questions.length) {
+      if (currentQuestion < currentQuiz.length) {
         loadQuestion();
       } else {
         showResult();
@@ -156,12 +148,68 @@
 
     function showResult() {
       document.getElementById("progress").style.display = "none";
+      document.getElementById("category").style.display = "none";
       document.getElementById("question").style.display = "none";
       document.getElementById("answers").style.display = "none";
-      document.querySelector("button").style.display = "none";
+      document.getElementById("nextBtn").style.display = "none";
 
-      document.getElementById("result").innerText =
-        "You scored " + score + " out of " + questions.length + ".";
+      let resultHTML = `
+        <h2>You scored ${score} out of ${currentQuiz.length}</h2>
+      `;
+
+      if (missedQuestions.length > 0) {
+        resultHTML += `
+          <button onclick="retakeMissed()">
+            Retake Missed Questions (${missedQuestions.length})
+          </button>
+        `;
+      } else {
+        resultHTML += `
+          <h3>Perfect Score!</h3>
+        `;
+      }
+
+      resultHTML += `
+        <button onclick="restartQuiz()">
+          Restart Full Quiz
+        </button>
+      `;
+
+      document.getElementById("result").innerHTML = resultHTML;
+    }
+
+    function retakeMissed() {
+      currentQuiz = [...missedQuestions];
+
+      currentQuestion = 0;
+      score = 0;
+      selectedAnswer = null;
+      missedQuestions = [];
+
+      resetQuizUI();
+      loadQuestion();
+    }
+
+    function restartQuiz() {
+      currentQuiz = [...questions];
+
+      currentQuestion = 0;
+      score = 0;
+      selectedAnswer = null;
+      missedQuestions = [];
+
+      resetQuizUI();
+      loadQuestion();
+    }
+
+    function resetQuizUI() {
+      document.getElementById("progress").style.display = "block";
+      document.getElementById("category").style.display = "block";
+      document.getElementById("question").style.display = "block";
+      document.getElementById("answers").style.display = "block";
+      document.getElementById("nextBtn").style.display = "block";
+
+      document.getElementById("result").innerHTML = "";
     }
 
     loadQuestion();

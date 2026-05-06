@@ -1,392 +1,486 @@
 const questions = [
   {
-  id: 1,
-  category: "Marketing Basics",
-  question: "What is marketing primarily focused on?",
-  answers: [
-    "Reducing employee turnover",
-    "Creating value for customers",
-    "Managing accounting records",
-    "Lowering taxes"
-  ],
-  correct: 1
-},
-
-{
-  id: 2,
-  category: "Marketing Basics",
-  question: "Which activity is part of marketing?",
-  answers: [
-    "Delivering customer value",
-    "Auditing financial statements",
-    "Writing legal contracts",
-    "Managing payroll"
-  ],
-  correct: 1
-},
-
-{
-  id: 3,
-  category: "Marketing Mix",
-  question: "Which of the following is part of the 4 Ps?",
-  answers: [
-    "Planning",
-    "Promotion",
-    "People",
-    "Process"
-  ],
-  correct: 1
-},
-
-{
-  id: 4,
-  category: "Marketing Mix",
-  question: "Price refers to what in marketing?",
-  answers: [
-    "The target audience",
-    "The amount customers pay",
-    "The advertising strategy",
-    "The product packaging"
-  ],
-  correct: 1
-},
-
-{
-  id: 5,
-  category: "Marketing Mix",
-  question: "Place in the marketing mix refers to:",
-  answers: [
-    "Store decoration",
-    "Distribution channels",
-    "Product colors",
-    "Employee uniforms"
-  ],
-  correct: 1
-},
-
-{
-  id: 6,
-  category: "Consumer Behavior",
-  question: "What is the first stage of consumer decision making?",
-  answers: [
-    "Purchase",
-    "Need recognition",
-    "Post-purchase evaluation",
-    "Alternative evaluation"
-  ],
-  correct: 1
-},
-
-{
-  id: 7,
-  category: "Consumer Behavior",
-  question: "Post-purchase behavior occurs:",
-  answers: [
-    "Before a purchase",
-    "After the customer buys a product",
-    "During advertising",
-    "Before need recognition"
-  ],
-  correct: 1
-},
-
-{
-  id: 8,
-  category: "Segmentation",
-  question: "Market segmentation means:",
-  answers: [
-    "Increasing product prices",
-    "Dividing markets into smaller groups",
-    "Hiring more employees",
-    "Reducing promotions"
-  ],
-  correct: 1
-},
-
-{
-  id: 9,
-  category: "Segmentation",
-  question: "Demographic segmentation includes:",
-  answers: [
-    "Weather patterns",
-    "Age and income",
-    "Store location",
-    "Product packaging"
-  ],
-  correct: 1
-},
-
-{
-  id: 10,
-  category: "Segmentation",
-  question: "Psychographic segmentation focuses on:",
-  answers: [
-    "Inventory systems",
-    "Lifestyle and personality",
-    "Shipping methods",
-    "Product defects"
-  ],
-  correct: 1
-},
-
-{
-  id: 11,
-  category: "SWOT",
-  question: "What does SWOT stand for?",
-  answers: [
-    "Sales, Work, Operations, Timing",
-    "Strengths, Weaknesses, Opportunities, Threats",
-    "Systems, Weaknesses, Objectives, Targets",
-    "Strategy, Work, Opportunities, Trends"
-  ],
-  correct: 1
-},
-
-{
-  id: 12,
-  category: "SWOT",
-  question: "Which is considered an internal factor in SWOT?",
-  answers: [
-    "Competition",
-    "Economic conditions",
-    "Strengths",
-    "Government regulations"
-  ],
-  correct: 2
-},
-
-{
-  id: 13,
-  category: "SWOT",
-  question: "Threats are considered:",
-  answers: [
-    "Internal factors",
-    "External factors",
-    "Financial statements",
-    "Pricing strategies"
-  ],
-  correct: 1
-},
-
-{
-  id: 14,
-  category: "BCG Matrix",
-  question: "What does the BCG Matrix evaluate?",
-  answers: [
-    "Employee performance",
-    "Product portfolio performance",
-    "Tax strategies",
-    "Warehouse inventory"
-  ],
-  correct: 1
-},
-
-{
-  id: 15,
-  category: "BCG Matrix",
-  question: "Which BCG category has high market growth and high market share?",
-  answers: [
-    "Dogs",
-    "Cash Cows",
-    "Stars",
-    "Question Marks"
-  ],
-  correct: 2
-},
-
-{
-  id: 16,
-  category: "BCG Matrix",
-  question: "Cash Cows typically:",
-  answers: [
-    "Require heavy investment",
-    "Generate stable cash flow",
-    "Have low market share",
-    "Are brand new products"
-  ],
-  correct: 1
-},
-
-{
-  id: 17,
-  category: "Marketing Research",
-  question: "Marketing research helps businesses:",
-  answers: [
-    "Avoid customers",
-    "Understand consumer behavior",
-    "Replace management",
-    "Eliminate products"
-  ],
-  correct: 1
-},
-
-{
-  id: 18,
-  category: "Marketing Research",
-  question: "Primary research involves:",
-  answers: [
-    "Using existing published data",
-    "Collecting new information directly",
-    "Ignoring customers",
-    "Reducing advertisements"
-  ],
-  correct: 1
-},
-
-{
-  id: 19,
-  category: "Marketing Research",
-  question: "Surveys are an example of:",
-  answers: [
-    "Secondary research",
-    "Primary research",
-    "Accounting methods",
-    "Pricing systems"
-  ],
-  correct: 1
-},
-
-{
-  id: 20,
-  category: "Target Market",
-  question: "A target market is:",
-  answers: [
-    "Every customer in the world",
-    "A specific group of intended customers",
-    "Only online customers",
-    "Only loyal customers"
-  ],
-  correct: 1
-},
-
-{
-  id: 21,
-  category: "Target Market",
-  question: "Positioning refers to:",
-  answers: [
-    "Employee hierarchy",
-    "How consumers perceive a brand",
-    "Warehouse organization",
-    "Tax filing systems"
-  ],
-  correct: 1
-},
-
-{
-  id: 22,
-  category: "Promotion",
-  question: "Advertising is part of which marketing mix element?",
-  answers: [
-    "Price",
-    "Promotion",
-    "Place",
-    "Product"
-  ],
-  correct: 1
-},
-
-{
-  id: 23,
-  category: "Promotion",
-  question: "Public relations mainly focuses on:",
-  answers: [
-    "Building positive public image",
-    "Reducing taxes",
-    "Inventory control",
-    "Employee scheduling"
-  ],
-  correct: 0
-},
-
-{
-  id: 24,
-  category: "Consumer Behavior",
-  question: "Cognitive dissonance occurs when:",
-  answers: [
-    "Customers feel uncertainty after purchase",
-    "Customers skip advertisements",
-    "Products are defective",
-    "Prices increase"
-  ],
-  correct: 0
-},
-
-{
-  id: 25,
-  category: "Marketing Strategy",
-  question: "STP stands for:",
-  answers: [
-    "Sales, Timing, Promotion",
-    "Segmentation, Targeting, Positioning",
-    "Strategy, Target, Pricing",
-    "Systems, Timing, Planning"
-  ],
-  correct: 1
-},
-
-{
-  id: 26,
-  category: "Marketing Strategy",
-  question: "Targeting occurs after:",
-  answers: [
-    "Positioning",
-    "Segmentation",
-    "Promotion",
-    "Distribution"
-  ],
-  correct: 1
-},
-
-{
-  id: 27,
-  category: "Product",
-  question: "A product can be:",
-  answers: [
-    "Only physical goods",
-    "Goods, services, or ideas",
-    "Only services",
-    "Only online items"
-  ],
-  correct: 1
-},
-
-{
-  id: 28,
-  category: "Pricing",
-  question: "Discount pricing is used to:",
-  answers: [
-    "Increase customer purchases",
-    "Reduce quality",
-    "Eliminate products",
-    "Avoid promotions"
-  ],
-  correct: 0
-},
-
-{
-  id: 29,
-  category: "Distribution",
-  question: "Distribution channels help products:",
-  answers: [
-    "Reach consumers",
-    "Increase taxes",
-    "Hire workers",
-    "Reduce inventory"
-  ],
-  correct: 0
-},
-
-{
-  id: 30,
-  category: "Branding",
-  question: "Brand equity refers to:",
-  answers: [
-    "A company's taxes",
-    "The value of a brand name",
-    "Employee salaries",
-    "Store rent"
-  ],
-  correct: 1
-},
-  
-];
+  "chapter": "Chapter 1",
+  "questions": [
+    {
+      "id": 1,
+      "category": "Marketing Basics",
+      "question": "What is marketing according to the American Marketing Association?",
+      "answers": [
+        "Managing company profits only",
+        "Creating, communicating, delivering, and exchanging offerings that have value",
+        "Selling products through advertising",
+        "Distributing goods to retailers"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "category": "Marketing Basics",
+      "question": "Which of the following is one facet of marketing?",
+      "answers": [
+        "Avoiding customer relationships",
+        "Delivering value and benefits to customers",
+        "Reducing communication with stakeholders",
+        "Focusing only on production"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "category": "Marketing Basics",
+      "question": "Marketing involves building what type of relationships?",
+      "answers": [
+        "Temporary relationships",
+        "Competitive relationships",
+        "Long-term mutually rewarding relationships",
+        "One-sided relationships"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 4,
+      "category": "Stakeholders",
+      "question": "Which group is considered a stakeholder partner in marketing?",
+      "answers": [
+        "Employees",
+        "Suppliers",
+        "Stockholders",
+        "All of the above"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 5,
+      "category": "Exchange",
+      "question": "What is required for an exchange to occur?",
+      "answers": [
+        "Government approval",
+        "Advertising only",
+        "An agreement between two parties",
+        "A written contract"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 6,
+      "category": "Exchange",
+      "question": "How many parties must be involved in an exchange?",
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 7,
+      "category": "Exchange",
+      "question": "Which condition is necessary for exchange?",
+      "answers": [
+        "Each party must be forced to accept the offer",
+        "Something of value must be present",
+        "Only one party can communicate",
+        "Money must always be exchanged"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 8,
+      "category": "Exchange",
+      "question": "In an exchange process each party must be free to:",
+      "answers": [
+        "Set government regulations",
+        "Reject or accept the offer",
+        "Create the product",
+        "Control pricing"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 9,
+      "category": "Exchange",
+      "question": "Marketing can occur even if:",
+      "answers": [
+        "No exchange takes place",
+        "Products are unavailable",
+        "Customers refuse communication",
+        "The company has no employees"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 10,
+      "category": "Marketing Philosophies",
+      "question": "Which marketing orientation focuses on internal capabilities of the firm?",
+      "answers": [
+        "Sales orientation",
+        "Market orientation",
+        "Production orientation",
+        "Societal orientation"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 11,
+      "category": "Marketing Philosophies",
+      "question": "Which orientation believes high sales result in high profits?",
+      "answers": [
+        "Production orientation",
+        "Societal orientation",
+        "Market orientation",
+        "Sales orientation"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 12,
+      "category": "Marketing Philosophies",
+      "question": "Which orientation focuses on satisfying customer wants and needs while meeting organizational objectives?",
+      "answers": [
+        "Sales orientation",
+        "Production orientation",
+        "Market orientation",
+        "Societal orientation"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 13,
+      "category": "Marketing Philosophies",
+      "question": "Which orientation focuses on customer wants and societal well-being?",
+      "answers": [
+        "Production orientation",
+        "Societal orientation",
+        "Sales orientation",
+        "Market orientation"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 14,
+      "category": "Marketing Philosophies",
+      "question": "Henry Ford's Model T strategy is an example of:",
+      "answers": [
+        "Societal orientation",
+        "Sales orientation",
+        "Production orientation",
+        "Market orientation"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 15,
+      "category": "Sales vs Market Orientation",
+      "question": "A sales-oriented firm is generally:",
+      "answers": [
+        "Outward looking",
+        "Customer focused",
+        "Inward looking",
+        "Relationship focused"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 16,
+      "category": "Sales vs Market Orientation",
+      "question": "A market-oriented firm focuses primarily on:",
+      "answers": [
+        "Aggressive selling",
+        "Internal operations",
+        "What the market wants",
+        "Reducing prices"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 17,
+      "category": "Customer Value",
+      "question": "Customer value is best described as:",
+      "answers": [
+        "High quality only",
+        "Low price only",
+        "The relationship between benefits and sacrifice",
+        "Advertising effectiveness"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 18,
+      "category": "Customer Value",
+      "question": "Which of the following is a customer value requirement?",
+      "answers": [
+        "Offer unrealistic pricing",
+        "Avoid after-sales support",
+        "Earn customer trust",
+        "Limit communication"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 19,
+      "category": "Customer Value",
+      "question": "Successful companies create customer value by:",
+      "answers": [
+        "Ignoring customer expectations",
+        "Providing products customers value",
+        "Eliminating customer service",
+        "Avoiding innovation"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 20,
+      "category": "Customer Satisfaction",
+      "question": "Customer satisfaction is a customer's evaluation of whether a product:",
+      "answers": [
+        "Has met needs and expectations",
+        "Is the cheapest option",
+        "Was heavily advertised",
+        "Has the best packaging"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 21,
+      "category": "Relationship Marketing",
+      "question": "Relationship marketing focuses on:",
+      "answers": [
+        "Short-term profits only",
+        "Keeping and improving customer relationships",
+        "Reducing customer interaction",
+        "Aggressive selling"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 22,
+      "category": "CRM",
+      "question": "CRM stands for:",
+      "answers": [
+        "Consumer Revenue Management",
+        "Customer Relationship Management",
+        "Corporate Retail Marketing",
+        "Customer Retention Method"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 23,
+      "category": "CRM",
+      "question": "Customer Relationship Management is designed to optimize:",
+      "answers": [
+        "Production only",
+        "Advertising expenses",
+        "Profitability revenue and customer satisfaction",
+        "Distribution costs"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 24,
+      "category": "On-Demand Marketing",
+      "question": "On-demand marketing delivers:",
+      "answers": [
+        "Mass advertising only",
+        "Relevant experiences throughout the buying process",
+        "Products without customer input",
+        "Retail-only communication"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 25,
+      "category": "Sales Orientation",
+      "question": "Sales-oriented organizations seek profitability primarily through:",
+      "answers": [
+        "Sales volume",
+        "Customer relationships",
+        "Customer feedback",
+        "Market research"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 26,
+      "category": "Market Orientation",
+      "question": "Market-oriented organizations make profits by:",
+      "answers": [
+        "Aggressive selling only",
+        "Creating customer value and satisfaction",
+        "Reducing employee involvement",
+        "Focusing only on production"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 27,
+      "category": "Marketing Mix",
+      "question": "Market-oriented firms recognize promotion as:",
+      "answers": [
+        "The only important marketing activity",
+        "One of four basic marketing mix decisions",
+        "Unnecessary for success",
+        "A replacement for customer value"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 28,
+      "category": "Why Study Marketing",
+      "question": "Why is marketing important to society?",
+      "answers": [
+        "It affects people every day",
+        "It eliminates competition",
+        "It reduces innovation",
+        "It replaces management"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 29,
+      "category": "Why Study Marketing",
+      "question": "Which is a reason to study marketing?",
+      "answers": [
+        "Limited career opportunities",
+        "No business impact",
+        "Good career opportunities",
+        "Marketing is unrelated to society"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 30,
+      "category": "Key Terms",
+      "question": "What is the marketing concept primarily focused on?",
+      "answers": [
+        "Aggressive sales",
+        "Internal production efficiency",
+        "Customer satisfaction",
+        "Reducing employee involvement"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 31,
+      "category": "Key Terms",
+      "question": "Market orientation is another term closely related to:",
+      "answers": [
+        "Marketing concept",
+        "Production orientation",
+        "Sales orientation",
+        "Exchange process"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 32,
+      "category": "Key Terms",
+      "question": "Societal marketing orientation adds concern for:",
+      "answers": [
+        "Employee salaries",
+        "Societal well-being",
+        "Factory production",
+        "Sales quotas"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 33,
+      "category": "Key Terms",
+      "question": "Empowerment in organizations generally refers to:",
+      "answers": [
+        "Giving employees more authority and responsibility",
+        "Reducing teamwork",
+        "Eliminating communication",
+        "Focusing only on management"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 34,
+      "category": "Key Terms",
+      "question": "Teamwork in marketing organizations helps improve:",
+      "answers": [
+        "Customer satisfaction",
+        "Communication barriers",
+        "Product shortages",
+        "Employee isolation"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 35,
+      "category": "Examples",
+      "question": "Which company was listed as an example of delivering superior customer value?",
+      "answers": [
+        "Amazon",
+        "Kodak",
+        "Blockbuster",
+        "MySpace"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 36,
+      "category": "Examples",
+      "question": "Which company was identified as an example of societal orientation?",
+      "answers": [
+        "The Body Shop",
+        "Henry Ford",
+        "Dot-com businesses",
+        "Dell"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 37,
+      "category": "Examples",
+      "question": "Ritz Carlton Hotels was used as an example of which orientation?",
+      "answers": [
+        "Market orientation",
+        "Production orientation",
+        "Sales orientation",
+        "Societal orientation"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 38,
+      "category": "Concepts",
+      "question": "Which philosophy is most customer focused?",
+      "answers": [
+        "Sales orientation",
+        "Market orientation",
+        "Production orientation",
+        "Aggressive orientation"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 39,
+      "category": "Concepts",
+      "question": "An outward-looking company is most likely:",
+      "answers": [
+        "Market oriented",
+        "Production oriented",
+        "Sales oriented",
+        "Internally focused"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 40,
+      "category": "Concepts",
+      "question": "The main purpose of marketing is to:",
+      "answers": [
+        "Maximize production only",
+        "Create value for customers and society",
+        "Eliminate competition",
+        "Increase advertising costs"
+      ],
+      "correct": 1
+    }
+  ]
+}

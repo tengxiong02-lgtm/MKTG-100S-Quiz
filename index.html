@@ -12,14 +12,14 @@
 
     .quiz-box {
       background: white;
-      max-width: 700px;
+      max-width: 800px;
       margin: auto;
       padding: 25px;
       border-radius: 12px;
       box-shadow: 0 0 10px rgba(0,0,0,0.15);
     }
 
-    h1 {
+    h1, h2, h3 {
       text-align: center;
     }
 
@@ -27,6 +27,12 @@
       color: #555;
       font-size: 14px;
       margin-bottom: 10px;
+    }
+
+    .chapter-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 12px;
     }
 
     .answer {
@@ -45,7 +51,7 @@
     button {
       width: 100%;
       padding: 12px;
-      margin-top: 20px;
+      margin-top: 15px;
       font-size: 16px;
       cursor: pointer;
       border: none;
@@ -54,9 +60,14 @@
       color: white;
     }
 
+    .chapter-btn {
+      background: #444;
+      margin-top: 0;
+    }
+
     #result {
       text-align: center;
-      font-size: 22px;
+      font-size: 20px;
       font-weight: bold;
     }
   </style>
@@ -67,14 +78,36 @@
   <div class="quiz-box">
     <h1>MKTG 100S Quiz</h1>
 
-    <p id="progress" class="meta"></p>
-    <p id="category" class="meta"></p>
+    <div id="chapterSelect">
+      <h2>Choose a Chapter</h2>
 
-    <h2 id="question"></h2>
+      <div class="chapter-grid">
+        <button class="chapter-btn" onclick="startChapter('Chapter 1')">Chapter 1</button>
+        <button class="chapter-btn" onclick="startChapter('Chapter 2')">Chapter 2</button>
+        <button class="chapter-btn" onclick="startChapter('Chapter 4')">Chapter 4</button>
+        <button class="chapter-btn" onclick="startChapter('Chapter 5')">Chapter 5</button>
+        <button class="chapter-btn" onclick="startChapter('Chapter 6')">Chapter 6</button>
+        <button class="chapter-btn" onclick="startChapter('Chapter 8')">Chapter 8</button>
+        <button class="chapter-btn" onclick="startChapter('Chapter 9')">Chapter 9</button>
+        <button class="chapter-btn" onclick="startChapter('Chapter 15')">Chapter 15</button>
+        <button class="chapter-btn" onclick="startChapter('Chapter 17')">Chapter 17</button>
+        <button class="chapter-btn" onclick="startChapter('Chapter 19')">Chapter 19</button>
+	<button class="chapter-btn" onclick="startChapter('1st Exam')">1st Exam</button>
+        <button class="chapter-btn" onclick="startChapter('Final Exam')">Final Exam</button>
+        <button class="chapter-btn" onclick="startAllChapters()">All Chapters</button>
+      </div>
+    </div>
 
-    <div id="answers"></div>
+    <div id="quizArea" style="display:none;">
+      <p id="progress" class="meta"></p>
+      <p id="category" class="meta"></p>
 
-    <button id="nextBtn" onclick="nextQuestion()">Next</button>
+      <h2 id="question"></h2>
+
+      <div id="answers"></div>
+
+      <button id="nextBtn" onclick="nextQuestion()">Next</button>
+    </div>
 
     <div id="result"></div>
   </div>
@@ -82,12 +115,44 @@
   <script src="questions.js"></script>
 
   <script>
-    let currentQuiz = [...questions];
+    let currentQuiz = [];
+    let originalQuiz = [];
 
     let currentQuestion = 0;
     let score = 0;
     let selectedAnswer = null;
     let missedQuestions = [];
+
+    function startChapter(chapterName) {
+      currentQuiz = questions.filter(q => q.chapter === chapterName);
+      originalQuiz = [...currentQuiz];
+
+      if (currentQuiz.length === 0) {
+        alert("No questions found for " + chapterName + ". Check your questions.js chapter names.");
+        return;
+      }
+
+      startQuiz();
+    }
+
+    function startAllChapters() {
+      currentQuiz = [...questions];
+      originalQuiz = [...questions];
+      startQuiz();
+    }
+
+    function startQuiz() {
+      currentQuestion = 0;
+      score = 0;
+      selectedAnswer = null;
+      missedQuestions = [];
+
+      document.getElementById("chapterSelect").style.display = "none";
+      document.getElementById("quizArea").style.display = "block";
+      document.getElementById("result").innerHTML = "";
+
+      loadQuestion();
+    }
 
     function loadQuestion() {
       selectedAnswer = null;
@@ -98,7 +163,7 @@
         "Question " + (currentQuestion + 1) + " of " + currentQuiz.length;
 
       document.getElementById("category").innerText =
-        "Category: " + current.category;
+        current.chapter + " | " + current.category;
 
       document.getElementById("question").innerText =
         current.question;
@@ -147,11 +212,7 @@
     }
 
     function showResult() {
-      document.getElementById("progress").style.display = "none";
-      document.getElementById("category").style.display = "none";
-      document.getElementById("question").style.display = "none";
-      document.getElementById("answers").style.display = "none";
-      document.getElementById("nextBtn").style.display = "none";
+      document.getElementById("quizArea").style.display = "none";
 
       let resultHTML = `
         <h2>You scored ${score} out of ${currentQuiz.length}</h2>
@@ -170,8 +231,12 @@
       }
 
       resultHTML += `
-        <button onclick="restartQuiz()">
-          Restart Full Quiz
+        <button onclick="restartSameQuiz()">
+          Restart This Quiz
+        </button>
+
+        <button onclick="backToChapters()">
+          Choose Another Chapter
         </button>
       `;
 
@@ -186,33 +251,39 @@
       selectedAnswer = null;
       missedQuestions = [];
 
-      resetQuizUI();
+      document.getElementById("quizArea").style.display = "block";
+      document.getElementById("result").innerHTML = "";
+
       loadQuestion();
     }
 
-    function restartQuiz() {
-      currentQuiz = [...questions];
+    function restartSameQuiz() {
+      currentQuiz = [...originalQuiz];
 
       currentQuestion = 0;
       score = 0;
       selectedAnswer = null;
       missedQuestions = [];
 
-      resetQuizUI();
+      document.getElementById("quizArea").style.display = "block";
+      document.getElementById("result").innerHTML = "";
+
       loadQuestion();
     }
 
-    function resetQuizUI() {
-      document.getElementById("progress").style.display = "block";
-      document.getElementById("category").style.display = "block";
-      document.getElementById("question").style.display = "block";
-      document.getElementById("answers").style.display = "block";
-      document.getElementById("nextBtn").style.display = "block";
+    function backToChapters() {
+      currentQuiz = [];
+      originalQuiz = [];
 
+      currentQuestion = 0;
+      score = 0;
+      selectedAnswer = null;
+      missedQuestions = [];
+
+      document.getElementById("chapterSelect").style.display = "block";
+      document.getElementById("quizArea").style.display = "none";
       document.getElementById("result").innerHTML = "";
     }
-
-    loadQuestion();
   </script>
 
 </body>

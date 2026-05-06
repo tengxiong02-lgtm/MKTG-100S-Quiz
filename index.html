@@ -27,6 +27,7 @@
       color: #555;
       font-size: 14px;
       margin-bottom: 10px;
+      text-align: center;
     }
 
     .chapter-grid {
@@ -76,45 +77,118 @@
 <body>
 
   <div class="quiz-box">
+
     <h1>MKTG 100S Quiz</h1>
 
+    <h3 style="margin-top:-10px; color:#666; font-weight:normal;">
+      Spring 2026
+    </h3>
+
+    <p class="meta">
+      Final: May 11th • 8:00 PM
+    </p>
+
+    <p class="meta">
+      By Teng Xiong
+    </p>
+
+    <p class="meta">
+      Contact: tengxiong02@mail.fresnostate.edu
+    </p>
+
+    <p class="meta">
+      Phone: 559.365.5049
+    </p>
+
     <div id="chapterSelect">
+
       <h2>Choose a Chapter</h2>
 
       <div class="chapter-grid">
-        <button class="chapter-btn" onclick="startChapter('Chapter 1')">Chapter 1</button>
-        <button class="chapter-btn" onclick="startChapter('Chapter 2')">Chapter 2</button>
-        <button class="chapter-btn" onclick="startChapter('Chapter 4')">Chapter 4</button>
-        <button class="chapter-btn" onclick="startChapter('Chapter 5')">Chapter 5</button>
-        <button class="chapter-btn" onclick="startChapter('Chapter 6')">Chapter 6</button>
-        <button class="chapter-btn" onclick="startChapter('Chapter 8')">Chapter 8</button>
-        <button class="chapter-btn" onclick="startChapter('Chapter 9')">Chapter 9</button>
-        <button class="chapter-btn" onclick="startChapter('Chapter 15')">Chapter 15</button>
-        <button class="chapter-btn" onclick="startChapter('Chapter 17')">Chapter 17</button>
-        <button class="chapter-btn" onclick="startChapter('Chapter 19')">Chapter 19</button>
-	<button class="chapter-btn" onclick="startChapter('1st Exam')">1st Exam</button>
-        <button class="chapter-btn" onclick="startChapter('Final Exam')">Final Exam</button>
-        <button class="chapter-btn" onclick="startAllChapters()">All Chapters</button>
+
+        <button class="chapter-btn" onclick="startChapter('Chapter 1')">
+          Chapter 1
+        </button>
+
+        <button class="chapter-btn" onclick="startChapter('Chapter 2')">
+          Chapter 2
+        </button>
+
+        <button class="chapter-btn" onclick="startChapter('Chapter 4')">
+          Chapter 4
+        </button>
+
+        <button class="chapter-btn" onclick="startChapter('Chapter 5')">
+          Chapter 5
+        </button>
+
+        <button class="chapter-btn" onclick="startChapter('Chapter 6')">
+          Chapter 6
+        </button>
+
+        <button class="chapter-btn" onclick="startChapter('Chapter 7')">
+          Chapter 7
+        </button>
+
+        <button class="chapter-btn" onclick="startChapter('Chapter 8')">
+          Chapter 8
+        </button>
+
+        <button class="chapter-btn" onclick="startChapter('Chapter 9')">
+          Chapter 9
+        </button>
+
+        <button class="chapter-btn" onclick="startChapter('Chapter 15')">
+          Chapter 15
+        </button>
+
+        <button class="chapter-btn" onclick="startChapter('Chapter 17')">
+          Chapter 17
+        </button>
+
+        <button class="chapter-btn" onclick="startChapter('Chapter 19')">
+          Chapter 19
+        </button>
+
+        <button class="chapter-btn" onclick="startChapter('1st Exam')">
+          1st Exam
+        </button>
+
+        <button class="chapter-btn" onclick="startChapter('Final Exam')">
+          Final Exam
+        </button>
+
+        <button class="chapter-btn" onclick="startAllChapters()">
+          All Chapters
+        </button>
+
       </div>
     </div>
 
     <div id="quizArea" style="display:none;">
+
       <p id="progress" class="meta"></p>
+
       <p id="category" class="meta"></p>
 
       <h2 id="question"></h2>
 
       <div id="answers"></div>
 
-      <button id="nextBtn" onclick="nextQuestion()">Next</button>
+      <button id="nextBtn" onclick="nextQuestion()">
+        Next
+      </button>
+
     </div>
 
     <div id="result"></div>
+
   </div>
 
   <script src="questions.js"></script>
 
   <script>
+
     let currentQuiz = [];
     let originalQuiz = [];
 
@@ -124,11 +198,21 @@
     let missedQuestions = [];
 
     function startChapter(chapterName) {
-      currentQuiz = questions.filter(q => q.chapter === chapterName);
+
+      currentQuiz = questions.filter(
+        q => q.chapter === chapterName
+      );
+
       originalQuiz = [...currentQuiz];
 
       if (currentQuiz.length === 0) {
-        alert("No questions found for " + chapterName + ". Check your questions.js chapter names.");
+
+        alert(
+          "No questions found for " +
+          chapterName +
+          ". Check your questions.js chapter names."
+        );
+
         return;
       }
 
@@ -136,31 +220,38 @@
     }
 
     function startAllChapters() {
+
       currentQuiz = [...questions];
       originalQuiz = [...questions];
+
       startQuiz();
     }
 
     function startQuiz() {
+
       currentQuestion = 0;
       score = 0;
       selectedAnswer = null;
       missedQuestions = [];
 
       document.getElementById("chapterSelect").style.display = "none";
+
       document.getElementById("quizArea").style.display = "block";
+
       document.getElementById("result").innerHTML = "";
 
       loadQuestion();
     }
 
     function loadQuestion() {
+
       selectedAnswer = null;
 
       const current = currentQuiz[currentQuestion];
 
       document.getElementById("progress").innerText =
-        "Question " + (currentQuestion + 1) + " of " + currentQuiz.length;
+        "Question " + (currentQuestion + 1) +
+        " of " + currentQuiz.length;
 
       document.getElementById("category").innerText =
         current.chapter + " | " + current.category;
@@ -168,11 +259,15 @@
       document.getElementById("question").innerText =
         current.question;
 
-      const answersDiv = document.getElementById("answers");
+      const answersDiv =
+        document.getElementById("answers");
+
       answersDiv.innerHTML = "";
 
       current.answers.forEach((answer, index) => {
+
         const label = document.createElement("label");
+
         label.className = "answer";
 
         label.innerHTML = `
@@ -185,52 +280,75 @@
         };
 
         answersDiv.appendChild(label);
+
       });
+
     }
 
     function nextQuestion() {
+
       if (selectedAnswer === null) {
+
         alert("Please select an answer.");
+
         return;
       }
 
       const current = currentQuiz[currentQuestion];
 
       if (selectedAnswer === current.correct) {
+
         score++;
+
       } else {
+
         missedQuestions.push(current);
+
       }
 
       currentQuestion++;
 
       if (currentQuestion < currentQuiz.length) {
+
         loadQuestion();
+
       } else {
+
         showResult();
+
       }
+
     }
 
     function showResult() {
-      document.getElementById("quizArea").style.display = "none";
+
+      document.getElementById("quizArea").style.display =
+        "none";
 
       let resultHTML = `
-        <h2>You scored ${score} out of ${currentQuiz.length}</h2>
+        <h2>
+          You scored ${score} out of ${currentQuiz.length}
+        </h2>
       `;
 
       if (missedQuestions.length > 0) {
+
         resultHTML += `
           <button onclick="retakeMissed()">
             Retake Missed Questions (${missedQuestions.length})
           </button>
         `;
+
       } else {
+
         resultHTML += `
           <h3>Perfect Score!</h3>
         `;
+
       }
 
       resultHTML += `
+
         <button onclick="restartSameQuiz()">
           Restart This Quiz
         </button>
@@ -238,12 +356,16 @@
         <button onclick="backToChapters()">
           Choose Another Chapter
         </button>
+
       `;
 
-      document.getElementById("result").innerHTML = resultHTML;
+      document.getElementById("result").innerHTML =
+        resultHTML;
+
     }
 
     function retakeMissed() {
+
       currentQuiz = [...missedQuestions];
 
       currentQuestion = 0;
@@ -251,13 +373,17 @@
       selectedAnswer = null;
       missedQuestions = [];
 
-      document.getElementById("quizArea").style.display = "block";
+      document.getElementById("quizArea").style.display =
+        "block";
+
       document.getElementById("result").innerHTML = "";
 
       loadQuestion();
+
     }
 
     function restartSameQuiz() {
+
       currentQuiz = [...originalQuiz];
 
       currentQuestion = 0;
@@ -265,13 +391,17 @@
       selectedAnswer = null;
       missedQuestions = [];
 
-      document.getElementById("quizArea").style.display = "block";
+      document.getElementById("quizArea").style.display =
+        "block";
+
       document.getElementById("result").innerHTML = "";
 
       loadQuestion();
+
     }
 
     function backToChapters() {
+
       currentQuiz = [];
       originalQuiz = [];
 
@@ -280,10 +410,16 @@
       selectedAnswer = null;
       missedQuestions = [];
 
-      document.getElementById("chapterSelect").style.display = "block";
-      document.getElementById("quizArea").style.display = "none";
+      document.getElementById("chapterSelect").style.display =
+        "block";
+
+      document.getElementById("quizArea").style.display =
+        "none";
+
       document.getElementById("result").innerHTML = "";
+
     }
+
   </script>
 
 </body>

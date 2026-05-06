@@ -1090,5 +1090,610 @@ const questions = [
     }
   ]
 }
+      {
+  "chapter": "Chapter 4",
+  "questions": [
+    {
+      "id": 1,
+      "category": "Marketing Environment",
+      "question": "The external marketing environment includes:",
+      "answers": [
+        "Only competitors",
+        "Only customers",
+        "Forces outside the firm that affect marketing decisions",
+        "Only internal employees"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 2,
+      "category": "Marketing Environment",
+      "question": "Why is understanding the external environment important for marketing managers?",
+      "answers": [
+        "To reduce product quality",
+        "To plan for the future",
+        "To eliminate competition",
+        "To avoid customers"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "category": "Marketing Environment",
+      "question": "Environmental scanning is:",
+      "answers": [
+        "Product testing",
+        "Collecting and evaluating environmental information",
+        "Setting prices",
+        "Employee training"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 4,
+      "category": "Marketing Environment",
+      "question": "The goal of environmental scanning is to identify:",
+      "answers": [
+        "Future market opportunities and threats",
+        "Employee salaries",
+        "Production schedules",
+        "Distribution routes"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "category": "Social Factors",
+      "question": "Which external variable is most difficult for marketers to forecast?",
+      "answers": [
+        "Technology",
+        "Competition",
+        "Social change",
+        "Pricing"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 6,
+      "category": "Social Factors",
+      "question": "Social factors influence:",
+      "answers": [
+        "Products consumers buy",
+        "Prices consumers pay",
+        "Where consumers shop",
+        "All of the above"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 7,
+      "category": "Core American Values",
+      "question": "Which is considered a core American value?",
+      "answers": [
+        "Collectivism",
+        "Individualism",
+        "Isolation",
+        "Dependency"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 8,
+      "category": "Core American Values",
+      "question": "Self-sufficiency means:",
+      "answers": [
+        "Depending on others",
+        "Every person should stand on their own feet",
+        "Avoiding work",
+        "Following trends"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 9,
+      "category": "Core American Values",
+      "question": "Upward mobility refers to the belief that success comes from:",
+      "answers": [
+        "Luck only",
+        "Working hard and education",
+        "Government support",
+        "Inheritance"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 10,
+      "category": "Core American Values",
+      "question": "The work ethic emphasizes:",
+      "answers": [
+        "Avoiding responsibility",
+        "Hard work and dedication",
+        "Minimal effort",
+        "Entertainment"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 11,
+      "category": "Core American Values",
+      "question": "Achievement orientation focuses on:",
+      "answers": [
+        "Avoiding goals",
+        "Setting goals and measuring results",
+        "Reducing productivity",
+        "Working alone"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 12,
+      "category": "Values",
+      "question": "Values are best described as:",
+      "answers": [
+        "Temporary preferences",
+        "Strongly held and enduring beliefs",
+        "Government regulations",
+        "Product features"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 13,
+      "category": "Values",
+      "question": "Values influence:",
+      "answers": [
+        "Buying habits",
+        "Only political opinions",
+        "Factory production",
+        "Import taxes"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 14,
+      "category": "Product Quality",
+      "question": "Which product quality characteristic ranks highest among U.S. consumers?",
+      "answers": [
+        "Low price",
+        "Ease of use",
+        "Reliability",
+        "Brand name"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 15,
+      "category": "Demographics",
+      "question": "Demography is the study of:",
+      "answers": [
+        "Advertising trends",
+        "People's vital statistics",
+        "Pricing systems",
+        "Retail stores"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 16,
+      "category": "Demographics",
+      "question": "Population is considered:",
+      "answers": [
+        "The basic statistic in marketing",
+        "A political factor only",
+        "An internal company resource",
+        "A pricing strategy"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 17,
+      "category": "Demographics",
+      "question": "Demographic characteristics are related to:",
+      "answers": [
+        "Consumer buying behavior",
+        "Manufacturing costs",
+        "Supply chains",
+        "Tax regulations"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 18,
+      "category": "Ethnic Markets",
+      "question": "Which ethnic market is the largest user of mobile device transactions?",
+      "answers": [
+        "Asian Americans",
+        "African Americans",
+        "Hispanic Americans",
+        "European Americans"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 19,
+      "category": "Ethnic Markets",
+      "question": "African Americans are known for:",
+      "answers": [
+        "Avoiding technology",
+        "Strong influence on trends",
+        "Low social awareness",
+        "Limited buying power"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 20,
+      "category": "Ethnic Markets",
+      "question": "Asian Americans are often:",
+      "answers": [
+        "Late adopters of technology",
+        "Early adopters of digital gadgets",
+        "Focused only on retail",
+        "Avoiding education"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 21,
+      "category": "Ethnic Markets",
+      "question": "Hispanics are more likely to choose brands that:",
+      "answers": [
+        "Ignore culture",
+        "Reflect their values and culture",
+        "Use the lowest prices only",
+        "Avoid mobile marketing"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 22,
+      "category": "Economic Factors",
+      "question": "Which is an economic factor affecting marketing?",
+      "answers": [
+        "Inflation",
+        "Purchasing power",
+        "Recession",
+        "All of the above"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 23,
+      "category": "Purchasing Power",
+      "question": "Purchasing power is measured by comparing:",
+      "answers": [
+        "Income to cost of living",
+        "Sales to profits",
+        "Employees to customers",
+        "Imports to exports"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 24,
+      "category": "Purchasing Power",
+      "question": "Cost of living includes:",
+      "answers": [
+        "Housing and food",
+        "Transportation and utilities",
+        "Healthcare and entertainment",
+        "All of the above"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 25,
+      "category": "Purchasing Power",
+      "question": "Consumers with high purchasing power can:",
+      "answers": [
+        "Buy higher priced necessities",
+        "Avoid all expenses",
+        "Ignore inflation",
+        "Reduce product demand"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 26,
+      "category": "Inflation",
+      "question": "Inflation is:",
+      "answers": [
+        "An increase in product reliability",
+        "A decrease in the value of money",
+        "A decrease in competition",
+        "An increase in production"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 27,
+      "category": "Inflation",
+      "question": "Inflation is usually expressed as:",
+      "answers": [
+        "A percentage reduction in value",
+        "A product rating",
+        "A company slogan",
+        "A market share figure"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 28,
+      "category": "Recession",
+      "question": "A recession is characterized by:",
+      "answers": [
+        "Positive economic growth",
+        "Negative economic growth",
+        "Higher inflation only",
+        "Lower taxes"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 29,
+      "category": "Recession",
+      "question": "A recession reduces demand for:",
+      "answers": [
+        "Goods and services",
+        "Government policies",
+        "Research studies",
+        "Competitors"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 30,
+      "category": "GDP",
+      "question": "GDP stands for:",
+      "answers": [
+        "General Distribution Product",
+        "Gross Domestic Product",
+        "Global Demand Pricing",
+        "Government Development Policy"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 31,
+      "category": "Research",
+      "question": "Basic research aims to:",
+      "answers": [
+        "Develop improved products only",
+        "Confirm theories or learn more about concepts",
+        "Reduce competition",
+        "Increase prices"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 32,
+      "category": "Research",
+      "question": "Applied research focuses on:",
+      "answers": [
+        "Learning theories only",
+        "Developing new or improved products",
+        "Reducing demographics",
+        "Government regulations"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 33,
+      "category": "Technology",
+      "question": "Developing new technology internally helps firms:",
+      "answers": [
+        "Reduce innovation",
+        "Create long term competitive advantage",
+        "Eliminate customers",
+        "Avoid research"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 34,
+      "category": "Technology",
+      "question": "New technology can:",
+      "answers": [
+        "Make existing products obsolete",
+        "Reduce innovation",
+        "Eliminate all competition",
+        "Stop market growth"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 35,
+      "category": "Political and Legal Factors",
+      "question": "Government regulation helps protect:",
+      "answers": [
+        "Consumers",
+        "Society",
+        "Innovators",
+        "All of the above"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 36,
+      "category": "Political and Legal Factors",
+      "question": "Every aspect of the marketing mix is subject to:",
+      "answers": [
+        "Laws and restrictions",
+        "Only customer preferences",
+        "Only employee opinions",
+        "Random chance"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 37,
+      "category": "Regulatory Agencies",
+      "question": "The FDA stands for:",
+      "answers": [
+        "Federal Drug Association",
+        "Food and Drug Administration",
+        "Food Distribution Agency",
+        "Federal Distribution Administration"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 38,
+      "category": "Regulatory Agencies",
+      "question": "The FTC is responsible for:",
+      "answers": [
+        "Preventing unfair competition",
+        "Building highways",
+        "Managing inflation",
+        "Creating advertising"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 39,
+      "category": "Regulatory Agencies",
+      "question": "The CPSC focuses on:",
+      "answers": [
+        "Consumer health and safety",
+        "Export regulations",
+        "Interest rates",
+        "Import quotas"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 40,
+      "category": "FTC",
+      "question": "Which FTC bureau reviews mergers and acquisitions?",
+      "answers": [
+        "Bureau of Consumer Protection",
+        "Bureau of Competition",
+        "Bureau of Demographics",
+        "Bureau of Technology"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 41,
+      "category": "Consumer Privacy",
+      "question": "The CAN-SPAM Act regulates:",
+      "answers": [
+        "Television ads",
+        "Unsolicited email advertising",
+        "Product packaging",
+        "Retail pricing"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 42,
+      "category": "Consumer Privacy",
+      "question": "The Children's Online Privacy Protection Act requires:",
+      "answers": [
+        "Websites to post privacy policies",
+        "Lower prices for children",
+        "More television advertising",
+        "Government ownership of websites"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 43,
+      "category": "Competition",
+      "question": "Global competition means:",
+      "answers": [
+        "Foreign firms entering U.S. markets",
+        "No domestic competition",
+        "Reduced innovation",
+        "Elimination of imports"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 44,
+      "category": "Competition",
+      "question": "Foreign firms now compete heavily on:",
+      "answers": [
+        "Product quality",
+        "Government regulation",
+        "Population growth",
+        "Transportation only"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 45,
+      "category": "Competition",
+      "question": "Technological advances can:",
+      "answers": [
+        "Create new competitors",
+        "Reduce innovation",
+        "End market demand",
+        "Eliminate customer needs"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 46,
+      "category": "Marketing Concepts",
+      "question": "Managers alter the marketing mix based on:",
+      "answers": [
+        "How consumers make purchasing decisions",
+        "Employee hobbies",
+        "Government ownership",
+        "Random trends"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 47,
+      "category": "Marketing Concepts",
+      "question": "Demography is considered:",
+      "answers": [
+        "A controllable internal variable",
+        "An uncontrollable external variable",
+        "A pricing strategy",
+        "A promotional tool"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 48,
+      "category": "Marketing Concepts",
+      "question": "Technological success is based on:",
+      "answers": [
+        "Innovation",
+        "Reduced competition",
+        "Higher taxes",
+        "Advertising only"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 49,
+      "category": "Marketing Concepts",
+      "question": "Innovation requires:",
+      "answers": [
+        "Risk taking and imagination",
+        "Lower education",
+        "Reduced technology",
+        "Government ownership"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 50,
+      "category": "Marketing Concepts",
+      "question": "Managers have little control over the:",
+      "answers": [
+        "Competitive environment",
+        "Marketing mix",
+        "Pricing strategy",
+        "Promotion schedule"
+      ],
+      "correct": 0
+    }
+  ]
+}
       
 ];
